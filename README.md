@@ -1,4 +1,4 @@
-# QR Code Generator: The Complete Guide to Creating QR Codes Online in 2026
+# QR Code Generator: The Complete Guide to Creating QR Codes Online
 
 QR codes have become one of the most common ways to bridge the physical and digital worlds — from restaurant menus and business cards to payment systems and marketing campaigns. If you need to create one quickly without downloading any software, try the Free QR Code Generator — just enter your link or text, generate your code instantly, and download it ready to print or share, completely free.
 
