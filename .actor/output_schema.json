@@ -1,0 +1,13 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "QR Code Generator Content Scraper Output",
+  "description": "Contains structured SEO metadata, headings, links, images, and extracted webpage content from QR Code Generator pages.",
+  "properties": {
+    "crawlResults": {
+      "type": "string",
+      "title": "Crawl Results",
+      "description": "Structured webpage data including SEO metadata, headings, content, links, and images.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    }
+  }
+}
