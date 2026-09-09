@@ -1,0 +1,39 @@
+{
+  "title": "QR Code Generator Content Scraper Input",
+  "description": "Enter one or more QR Code Generator or QR code-related webpage URLs to extract SEO metadata, headings, structured content, and page text.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "startUrls": {
+      "title": "Start URLs",
+      "type": "array",
+      "description": "Enter the webpage URL or URLs you want to analyze and extract content from.",
+      "editor": "requestListSources",
+      "prefill": [
+        {
+          "url": "https://zoneoftools.com/tools/qr-code-generator"
+        }
+      ]
+    },
+    "maxCrawlPages": {
+      "title": "Maximum pages",
+      "type": "integer",
+      "description": "Maximum number of webpages to process during one Actor run.",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 1
+    },
+    "includeImages": {
+      "title": "Include images",
+      "type": "boolean",
+      "description": "Extract image URLs and alternative text from the webpage.",
+      "default": true
+    },
+    "includeLinks": {
+      "title": "Include links",
+      "type": "boolean",
+      "description": "Extract internal and external links found on the webpage.",
+      "default": true
+    }
+  }
+}
